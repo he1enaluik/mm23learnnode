@@ -38,7 +38,7 @@ function submitForm() {
                 <span class="icon"><i class="fas fa-paper-plane"></i></span>
                 <span>Contact Form Modal</span>
             </button>
-            
+
             <button class="button is-success" @click="videoModal = true">
                 <span class="icon"><i class="fas fa-video"></i></span>
                 <span>Video Modal</span>
@@ -153,7 +153,7 @@ function submitForm() {
             <template #footer>
                 <button class="button is-warning" @click="fullscreenModal = false">Close Fullscreen</button>
             </template>
-        </Modal>
+    </Modal>
     </div>
 </template>
 

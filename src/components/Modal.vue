@@ -29,19 +29,19 @@ defineEmits(['close']);
             </header>
             
             <section class="modal-card-body">
-                <slot>
+            <slot>
                     <figure v-if="url" class="image">
                         <img :src="url" alt="Modal content">
                     </figure>
-                </slot>
+            </slot>
             </section>
-            
+
             <footer v-if="$slots.footer" class="modal-card-foot">
                 <slot name="footer"></slot>
             </footer>
         </div>
     </div>
-</template>
+</template> 
 
 <style scoped>
 .modal-card.is-small {

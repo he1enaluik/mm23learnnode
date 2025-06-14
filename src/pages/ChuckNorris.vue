@@ -34,7 +34,7 @@ onBeforeUnmount(() => {
 <template>
     <div class="container mt-4">
         <div class="box">
-            <div class="content">
+        <div class="content">
                 <h2 class="title is-4">Chuck Norris Joke</h2>
                 <p class="subtitle is-5">{{ joke }}</p>
                 <button class="button is-primary" @click="fetchNewJoke">Get New Joke</button>
